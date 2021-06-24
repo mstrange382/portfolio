@@ -1,0 +1,46 @@
+body{
+    background-color: #B9C7CA;
+}
+
+.me{
+    font-size: 75px;
+    font-family: 'Inconsolata', monospace;
+    text-align: left;
+    
+}
+
+#job{
+    font-size: 45px;
+    font-family: 'Inconsolata', monospace;
+    text-align: left;
+}
+
+nav{
+    align-items: right;
+    margin: 200px;
+    
+
+}
+
+.Page1{
+    text-align: right;
+    left: 900px;   
+}
+
+p{
+
+}
+
+.aboutMe{
+    font-size: 100px;
+    font-weight: bold;
+    color: firebrick;
+}
+
+.projects{
+    
+}
+
+
+
+
