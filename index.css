@@ -17,14 +17,7 @@ body{
 
 nav{
     align-items: right;
-    margin: 200px;
-    
-
-}
-
-.Page1{
-    text-align: right;
-    left: 900px;   
+    margin: 200px;   
 }
 
 
@@ -32,6 +25,7 @@ nav{
     font-size: 100px;
     font-weight: bold;
     color: #825D6F;
+    align-items: center;
 }
 
 .projects{
@@ -40,11 +34,22 @@ nav{
     color: #0F4C81;
 }
 
-.card-body{
-    background-color: ;
+.card{
+    background-color: #e2faff;
+    border-radius: 10%;
+    width: 50%;
+
 }
 
-.navbar-collapse{
-    background-color:#B9C7CA;
+.navbar{
+    padding-top: 0%;
+    margin-top: 3%;
+
 }
+
+
+
+
+
+
 
