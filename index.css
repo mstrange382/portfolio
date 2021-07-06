@@ -2,11 +2,14 @@ body{
     background-color: hsl(197, 25%, 78%);
 }
 
-.me{
+#me{
     font-size: 75px;
     font-family: 'Inconsolata', monospace;
     text-align: center;
-    
+}
+
+.container-lg{
+    padding-top: 10%;
 }
 
 #job{
@@ -17,7 +20,7 @@ body{
 
 nav{
     align-items: right;
-    margin: 200px;   
+    margin: 200px;  
 }
 
 
@@ -31,8 +34,8 @@ nav{
 #projects{
     font-size: 75px;
     font-weight: bold;
-    color: #0F4C81;
-    
+    color: #0F4C81;    
+    padding-top: 15%;
 }
 
 .card{
@@ -45,15 +48,34 @@ nav{
 
 .navbar{
     padding-top: 0%;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
-#contact{
+#Connect{
     text-align: right;
     margin-right: 3%;
 }
 
+.container-sm{
+    text-align: left;
+}
 
+#landing{
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+
+#about{
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+#contact{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-family:'Inconsolata', monospace
+}
 
 
 
