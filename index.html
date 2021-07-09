@@ -9,13 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-
     <link rel="stylesheet" href="./index.css">
     <title>Portfolio</title>
 </head>
 <body>
-  
+  <div style="background-image: url(./assets/ae171736a009cc02bfe7825c66dcb1ac.jpg);"></div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-sm">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +24,6 @@
           <a class="nav-link" href="#aboutMe">About Me</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#contact">Connect</a>
-          
         </div>
       </div>
 
@@ -41,20 +38,21 @@
     </div>
     
 
-    <div id="about" class="container-sm">
+    <div id="about" class="container">
       <div class="row">
         <div class="col">
           <h1 id="aboutMe">About Me</h1>
-          <p>this is where i'll write about myself</p>
+          <p id="para2">
+            WOW! You really know how to choose a good portfolio!<br> My name is Mitch Strange. I am a husband & father of 2 awesome kids. <br> I recently completed the intensive ElevenFifty Academy bootcamp while also working full time and balancing family responsibilties and social commitments. <br> I've only recently begun my journey into Web Development but I am very excited to see where this adventure will take me.  </p>
         </div>
         <div class="row">
-          
+          <!-- THIS IS WHERE I'LL PUT A IMG OF MYSELF -->
         </div>
       </div>
     </div>
 
 
-    <div><h1 id="projects">Projects</h1>
+    <div id="proj"><h1 id="projects">Projects</h1>
       <div class="row">
         <div class="col-sm-6">
           <div class="card">
@@ -115,18 +113,31 @@
       </div>
     </div>
 
-
-    
-
     <div id="contact" class="container">
       <div class="row">
         <div class="col">
           <h1 id="Connect">Let's Connect!</h1>
-          <p>email</p>
+          <form id="contactform"
+          action="https://formspree.io/f/myyldgey"
+          method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Name
+    <input type="message">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
         </div>
       </div>
     </div>
-
 
     <footer class="footer">
       <p>copyright 2021</p>

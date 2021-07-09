@@ -1,5 +1,7 @@
 body{
     background-color: hsl(197, 25%, 78%);
+    background-image: url(./assets/ae171736a009cc02bfe7825c66dcb1ac.jpg) ;
+
 }
 
 #me{
@@ -28,23 +30,36 @@ nav{
     font-size: 75px;
     font-weight: bold;
     color: #825D6F;
-    align-items: center;
+    /* align-items: left; */
 }
 
 #projects{
     font-size: 75px;
     font-weight: bold;
     color: #0F4C81;    
-    padding-top: 15%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#proj{
+    margin-bottom: 5%;
+
+}
+
+.col-sm-6{
+    margin-bottom: 13px;
 }
 
 .card{
-    background-color: #e2faff;
+    background-color: #9a959b;
     border-radius: 7%;
     width: 50%;
     margin-left: 23%;
-
 }
+.btn-primary{
+    background-color: firebrick;
+}
+
 
 .navbar{
     padding-top: 0%;
@@ -54,11 +69,12 @@ nav{
 #Connect{
     text-align: right;
     margin-right: 3%;
+    font-size: 75px;
 }
 
-.container-sm{
+/* .container-sm{
     text-align: left;
-}
+} */
 
 #landing{
     padding-bottom: 15%;
@@ -81,6 +97,10 @@ nav{
     text-align: center;
 }
 
+
+#contactform{
+    text-align: right;
+}
 
 
 
