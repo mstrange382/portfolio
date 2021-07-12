@@ -33,6 +33,12 @@ nav{
     /* align-items: left; */
 }
 
+#face{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
 #projects{
     font-size: 75px;
     font-weight: bold;
