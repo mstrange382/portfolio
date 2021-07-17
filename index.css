@@ -33,6 +33,15 @@ nav{
     /* align-items: left; */
 }
 
+.resume{
+    margin-left: 1000px;
+    background-color: #4361ee;
+    color: firebrick;
+    border-radius: 10%;
+    padding: 25px;
+}
+
+
 #face{
     height: 500px;
     width: 500px;
@@ -49,7 +58,6 @@ nav{
 
 #proj{
     margin-bottom: 5%;
-
 }
 
 .col-sm-6{
@@ -62,6 +70,7 @@ nav{
     width: 50%;
     margin-left: 23%;
 }
+
 .btn-primary{
     background-color: firebrick;
 }
